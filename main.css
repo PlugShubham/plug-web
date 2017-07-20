@@ -1,0 +1,102 @@
+body{
+background-color:#000;
+}
+@keyframes example {
+    0% {background-color:#9C27B0;}
+	25%  {background-color: #673AB7;}
+    50%  {background-color:#AA00FF;}
+    100% {background-color: #3F51B5;}
+}
+@keyframes example1 {
+ from {font-size:36px;color:#F3E5F5;}
+ to       {font-size:50px;color:#F3EAAA;}
+ }
+ #Photo{
+ animation-name: example1;
+animation-duration: 20s;
+animation-delay: 2s;
+animation-direction: reverse;
+}
+.jumbotron{
+background-color:#9C27B0;
+animation-name: example;
+animation-duration: 4s;
+color:#F3E5F5;
+font-family:Verdana, Geneva, sans-serif;
+padding:180px;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+}
+.jumbotron p {
+color:black;
+}
+.input-group-btn{
+padding-top:20px;
+}
+.bg-1{
+background-color:#FFF;
+padding:30px;
+}
+.first-row{
+padding:50px;
+}
+.bg-2{
+background-color:#F3E5F5;
+padding:20px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+    }
+}
+#services{
+padding:80px;
+background-color:#FFF;
+}
+.glyphicon {
+    color: #9C27B0;
+    
+}
+.thumbnail {
+    padding: 15px 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 10px;
+}
+#portfolio{
+padding:60px;
+}
+#contact{
+padding:180px;
+}
+.bg-grey{
+background-color:#F3E5F5;
+}
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #9C27B0 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
